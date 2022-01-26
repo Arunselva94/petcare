@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Firstcontroller {
-	@GetMapping("/pet")
+	@GetMapping("/pet-care")
 	public Response getPet() {
 		String i = "10";
 		Response response = new Response();
